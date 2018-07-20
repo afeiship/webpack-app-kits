@@ -1,9 +1,9 @@
-var resolve = require('path').resolve;
-var merge = require('../utils/merge');
+const resolve = require('path').resolve;
+const merge = require('../utils/merge');
 
 module.exports = function (inOptions) {
-  var dirname = inOptions.dirname;
-  var alias = inOptions.alias;
+  const dirname = inOptions.dirname;
+  const alias = inOptions.alias;
   return merge({
     '#': resolve(dirname, 'src/components'),
     'components': resolve(dirname, 'src/components'),

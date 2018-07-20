@@ -1,5 +1,5 @@
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var TEST_RE = /\.css$/;
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const TEST_RE = /\.css$/;
 
 module.exports = function(inOptions){
   return {

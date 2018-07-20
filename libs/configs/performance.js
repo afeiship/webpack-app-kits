@@ -1,9 +1,9 @@
-var merge = require('../utils/merge');
+const merge = require('../utils/merge');
 
-module.export = function (inOptions) {
+module.exports = function (inOptions) {
   return merge(
     {
       hints: false
     }, inOptions
   );
-}
+};

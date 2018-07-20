@@ -1,4 +1,4 @@
-var TEST_RE = /\.(jpe?g|png|gif|svg)$/i;
+const TEST_RE = /\.(jpe?g|png|gif|svg)$/i;
 
 module.exports = function (inOptions) {
   return {

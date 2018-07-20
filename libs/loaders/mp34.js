@@ -1,4 +1,4 @@
-var TEST_RE = /\.(mp3|mp4)$/i;
+const TEST_RE = /\.(mp3|mp4)$/i;
 
 module.exports = function (inOptions) {
   return {

@@ -1,9 +1,9 @@
-var path = require('path');
-var TEST_RE = /\.(js)$/;
+const path = require('path');
+const TEST_RE = /\.(js)$/;
 
 
 module.exports = function (inOptions) {
-  var dirname = inOptions.dirname;
+  const dirname = inOptions.dirname;
   return {
     test: TEST_RE,
     use: [

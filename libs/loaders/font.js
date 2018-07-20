@@ -1,4 +1,4 @@
-var TEST_RE = /\.(woff|eot|ttf)\??.*$/;
+const TEST_RE = /\.(woff|eot|ttf)\??.*$/;
 
 module.exports = function (inOptions) {
   return {

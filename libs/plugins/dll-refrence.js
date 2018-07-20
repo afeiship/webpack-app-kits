@@ -1,7 +1,7 @@
-var path = require('path');
+const path = require('path');
 
 module.exports = function (inOptions) {
-  var resolve = function (inPath) {
+  const resolve = function (inPath) {
     return path.resolve(inOptions.dirname, inPath);
   };
   return [
@@ -18,4 +18,4 @@ module.exports = function (inOptions) {
       }
     ]),
   ];
-}
+};

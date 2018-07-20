@@ -1,9 +1,9 @@
-var merge = require('../utils/merge');
-var webpack = require('webpack');
+const merge = require('../utils/merge');
+const webpack = require('webpack');
 
 module.exports = function (inOptoins) {
-  var mode = inOptoins.mode;
-  var options = nx.delete(inOptoins, ['mode']);
+  const mode = inOptoins.mode;
+  const options = nx.delete(inOptoins, ['mode']);
   return new webpack.LoaderOptionsPlugin(
     merge(
       {

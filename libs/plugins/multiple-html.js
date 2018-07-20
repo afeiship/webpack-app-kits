@@ -1,18 +1,18 @@
-var path = require('path');
-var webpackMpaEntries = require('webpack-mpa-entries');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var merge = require('../utils/merge');
+const path = require('path');
+const webpackMpaEntries = require('webpack-mpa-entries');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const merge = require('../utils/merge');
 
 module.exports = function (inOptions) {
-  var mpaEntries = webpackMpaEntries(inOptions.entries);
-  var dirname = inOptions.dirname;
-  var resolve = function (inPath) {
+  const mpaEntries = webpackMpaEntries(inOptions.entries);
+  const dirname = inOptions.dirname;
+  const resolve = function (inPath) {
     return path.resolve(dirname, inPath);
   };
 
   return nx.map(mpaEntries, function (key, value) {
-    var template = value.require('.js', '.ejs');
-    var filename = `dist/${key}/index.html`;
+    const template = value.require('.js', '.ejs');
+    const filename = `dist/${key}/index.html`;
 
     return new HtmlWebpackPlugin(
       merge(
@@ -27,4 +27,4 @@ module.exports = function (inOptions) {
       )
     );
   });
-}
+};
