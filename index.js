@@ -1,7 +1,4 @@
 module.exports = {
-  resolve:{
-
-  },
   utils:{
     merge: require('./libs/utils/merge'),
   },
