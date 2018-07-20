@@ -11,6 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "add-asset-html-webpack-plugin": "^3.0.0-0",
+    "app-root-path": "^2.1.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-plugin-dynamic-import-node": "^1.2.0",
@@ -40,7 +41,6 @@
     "import-glob-loader": "^1.1.0",
     "install": "^0.11.0",
     "mini-css-extract-plugin": "^0.4.0",
-
     "node-sass": "^4.8.3",
     "npm": "^6.1.0",
     "postcss-loader": "^2.1.5",

@@ -1,18 +1,18 @@
-const path = require('path');
+const resolve = require('path').resolve;
+const dirname = require('app-root-path').path;
 const TEST_RE = /\.(js)$/;
 
 
 module.exports = function (inOptions) {
-  const dirname = inOptions.dirname;
   return {
     test: TEST_RE,
     use: [
       'babel-loader'
     ],
     include: [
-      path.resolve(dirname, 'src'),
-      path.resolve(dirname, 'node_modules/mixin-decorator'),
-      path.resolve(dirname, 'node_modules/react-dynamic-router')
+      resolve(dirname, 'src'),
+      resolve(dirname, 'node_modules/mixin-decorator'),
+      resolve(dirname, 'node_modules/react-dynamic-router')
     ]
   }
 };
