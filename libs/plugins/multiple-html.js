@@ -3,7 +3,7 @@ var webpackMpaEntries = require('webpack-mpa-entries');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var merge = require('../utils/merge');
 
-module.export = function (inOptions) {
+module.exports = function (inOptions) {
   var mpaEntries = webpackMpaEntries(inOptions.entries);
   var dirname = inOptions.dirname;
   var resolve = function (inPath) {
