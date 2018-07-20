@@ -1,4 +1,6 @@
 const path = require('path');
+const webpack = require('webpack');
+const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin');
 
 module.exports = function (inOptions) {
   const resolve = function (inPath) {
