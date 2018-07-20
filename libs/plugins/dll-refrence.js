@@ -13,7 +13,7 @@ module.exports = function (inOptions) {
         includeSourcemap: false,
         hash: true,
         filepath: resolve('dist/vendors/vendors.*.js'),
-        outputPath: "vendors",
+        outputPath: 'vendors',
         publicPath: `${inOptions.publicPath}vendors`
       }
     ]),
