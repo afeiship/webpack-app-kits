@@ -1,8 +1,13 @@
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var TEST_RE = /\.css$/;
+var TEST_RE = /\.scss$/;
 
-module.exports = function(inOptions){
+module.exports = function (inOptions) {
   return [
+    {
+      test: TEST_RE,
+      loader: 'import-glob-loader',
+      enforce: 'pre'
+    },
     {
       test: TEST_RE,
       use: ExtractTextPlugin.extract({
@@ -10,9 +15,10 @@ module.exports = function(inOptions){
         use: [
           'css-hot-loader',
           'css-loader',
-          'postcss-loader'
+          'postcss-loader',
+          'sass-loader'
         ]
       })
     }
-  ]
+  ];
 };
