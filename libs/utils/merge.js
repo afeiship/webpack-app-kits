@@ -5,7 +5,5 @@ require('next-flatten');
 
 module.exports = function () {
   var args = nx.slice(arguments);
-  var first = args[0];
-  var action = Array.isArray(first) ? 'flatten' : 'mix';
-  return nx[action].apply(null, args);
+  return Array.isArray(args[0]) ? nx.flatten(args) : nx.mix.apply(null, args);
 };
