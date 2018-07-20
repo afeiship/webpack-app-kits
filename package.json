@@ -40,7 +40,7 @@
     "import-glob-loader": "^1.1.0",
     "install": "^0.11.0",
     "mini-css-extract-plugin": "^0.4.0",
-    "next-flatten": "github:afeiship/next-flatten",
+
     "node-sass": "^4.8.3",
     "npm": "^6.1.0",
     "postcss-loader": "^2.1.5",
@@ -56,6 +56,8 @@
     "webpack-mpa-entries": "github:afeiship/webpack-mpa-entries"
   },
   "dependencies": {
-    "next-js-core2": "github:afeiship/next-js-core2"
+    "next-js-core2": "github:afeiship/next-js-core2",
+    "next-flatten": "github:afeiship/next-flatten",
+    "next-delete": "github:afeiship/next-delete"
   }
 }

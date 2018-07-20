@@ -5,13 +5,12 @@ const merge = require('../utils/merge');
 
 module.exports = function (inOptions) {
   const mpaEntries = webpackMpaEntries(inOptions.entries);
-  const dirname = inOptions.dirname;
   const resolve = function (inPath) {
-    return path.resolve(dirname, inPath);
+    return path.resolve(inOptions.dirname, inPath);
   };
 
   return nx.map(mpaEntries, function (key, value) {
-    const template = value.require('.js', '.ejs');
+    const template = value.replace('.js', '.ejs');
     const filename = `dist/${key}/index.html`;
 
     return new HtmlWebpackPlugin(

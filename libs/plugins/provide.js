@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const merge = require('../utils/merge');
 
 module.exports = function(inOptions){
