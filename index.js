@@ -1,4 +1,7 @@
 module.exports = {
+  resolve:{
+
+  },
   utils:{
     merge: require('./libs/utils/merge'),
   },
@@ -24,5 +27,7 @@ module.exports = {
   configs: {
     optimization: require('./libs/configs/optimization'),
     performance: require('./libs/configs/performance'),
+    alias: require('./libs/configs/alias'),
+    extensions: require('./libs/configs/extensions')
   }
 };
