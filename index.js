@@ -1,5 +1,5 @@
 module.exports = {
-  styles: {
+  loaders: {
     css: require('./src/loaders/css-loader')
   }
-}
+};
