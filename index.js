@@ -1,5 +1,5 @@
 module.exports = {
-  utils:{
+  utils: {
     merge: require('./libs/utils/merge'),
   },
   loaders: {
@@ -17,14 +17,14 @@ module.exports = {
     multipleHtml: require('./libs/plugins/multiple-html'),
     provide: require('./libs/plugins/provide'),
   },
-  externals: {
-    react: require('./libs/externals/react'),
-    vue: require('./libs/externals/vue'),
-  },
   configs: {
     optimization: require('./libs/configs/optimization'),
     performance: require('./libs/configs/performance'),
     alias: require('./libs/configs/alias'),
-    extensions: require('./libs/configs/extensions')
+    extensions: require('./libs/configs/extensions'),
+    externals: {
+      react: require('./libs/externals/react'),
+      vue: require('./libs/externals/vue'),
+    }
   }
 };
