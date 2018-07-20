@@ -54,5 +54,8 @@
     "webpack-dev-server": "^3.1.4",
     "webpack-merge": "^4.1.2",
     "webpack-mpa-entries": "github:afeiship/webpack-mpa-entries"
+  },
+  "dependencies": {
+    "next-js-core2": "github:afeiship/next-js-core2"
   }
 }

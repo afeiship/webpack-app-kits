@@ -1,5 +1,7 @@
+var merge = require('../utils/merge');
+
 module.exports = function (inOptions) {
-  return Object.assign({
+  return merge({
     splitChunks: {
       cacheGroups: {
         commons: {

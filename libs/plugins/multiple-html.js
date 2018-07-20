@@ -1,7 +1,7 @@
 var path = require('path');
 var webpackMpaEntries = require('webpack-mpa-entries');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-
+var merge = require('../utils/merge');
 
 module.export = function (inOptions) {
   var mpaEntries = webpackMpaEntries(inOptions.entries);
@@ -15,7 +15,7 @@ module.export = function (inOptions) {
     var filename = `dist/${key}/index.html`;
 
     return new HtmlWebpackPlugin(
-      Object.assign(
+      merge(
         {
           hash: 6,
           inject: true,
