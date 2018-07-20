@@ -3,7 +3,6 @@ const dirname = require('app-root-path').path;
 const merge = require('../utils/merge');
 
 module.exports = function (inOptions) {
-  const alias = inOptions.alias;
   return merge({
     '#': resolve(dirname, 'src/components'),
     'components': resolve(dirname, 'src/components'),
@@ -16,5 +15,5 @@ module.exports = function (inOptions) {
     'scripts': resolve(dirname, 'src/components/scripts'),
     'mixins': resolve(dirname, 'src/components/mixins'),
     'modals': resolve(dirname, 'src/components/modals'),
-  }, alias);
+  }, inOptions);
 };
