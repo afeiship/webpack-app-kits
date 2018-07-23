@@ -24,6 +24,7 @@ module.exports = {
     moduleConcatenation: require('./libs/plugins/module-concatenation'),
     multipleHtml: require('./libs/plugins/multiple-html'),
     provide: require('./libs/plugins/provide'),
+    singleHtml: require('./libs/plugins/single-html'),
   },
   inputs: {
     dll: require('./libs/inputs/dll'),
