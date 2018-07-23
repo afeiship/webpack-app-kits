@@ -7,6 +7,7 @@ module.exports = {
     css: require('./libs/loaders/css'),
     font: require('./libs/loaders/font'),
     image: require('./libs/loaders/image'),
+    less: require('./libs/loaders/less'),
     mp34: require('./libs/loaders/mp34'),
     sass: require('./libs/loaders/sass'),
   },
