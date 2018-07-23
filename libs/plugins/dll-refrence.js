@@ -6,6 +6,7 @@ const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin');
 module.exports = function (inOptions) {
   return [
     new webpack.DllReferencePlugin({
+      context: dirname,
       manifest: resolve('dist/vendors/manifest.json')
     }),
     new AddAssetHtmlPlugin([

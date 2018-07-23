@@ -11,18 +11,20 @@ module.exports = {
     sass: require('./libs/loaders/sass'),
   },
   plugins: {
+    bundleAnalyzer: require('./libs/plugins/bundle-analyzer'),
     dllRefrence: require('./libs/plugins/dll-refrence'),
     dll: require('./libs/plugins/dll'),
     extractText: require('./libs/plugins/extract-text'),
-    loadersOptions: require('./libs/plugins/loaders-options'),
+    loaderOptions: require('./libs/plugins/loader-options'),
+    moduleConcatenation: require('./libs/plugins/module-concatenation'),
     multipleHtml: require('./libs/plugins/multiple-html'),
     provide: require('./libs/plugins/provide'),
   },
-  entries:{
+  entries: {
     mpa: require('./libs/entries/mpa'),
     spa: require('./libs/entries/spa'),
   },
-  outputs:{
+  outputs: {
     dll: require('./libs/outputs/dll'),
     spa: require('./libs/outputs/spa'),
   },
