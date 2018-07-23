@@ -6,6 +6,7 @@ module.exports = function (inOptions) {
   return merge({
     '#': resolve(dirname, 'src/components'),
     'components': resolve(dirname, 'src/components'),
+    'environments': resolve(dirname, 'src/environments'),
     'assets': resolve(dirname, 'src/assets'),
     'images': resolve(dirname, 'src/assets/images'),
     'styles': resolve(dirname, 'src/assets/styles'),
