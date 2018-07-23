@@ -24,11 +24,12 @@ module.exports = {
   },
   inputs: {
     mpa: require('./libs/inputs/mpa'),
-    spa: require('./libs/inputs/spa'),
+    spa: require('./libs/inputs/spa')
   },
   outputs: {
     dll: require('./libs/outputs/dll'),
     spa: require('./libs/outputs/spa'),
+    mpa: require('./libs/outputs/mpa'),
   },
   configs: {
     alias: require('./libs/configs/alias'),
