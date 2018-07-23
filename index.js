@@ -21,9 +21,9 @@ module.exports = {
     multipleHtml: require('./libs/plugins/multiple-html'),
     provide: require('./libs/plugins/provide'),
   },
-  entries: {
-    mpa: require('./libs/entries/mpa'),
-    spa: require('./libs/entries/spa'),
+  inputs: {
+    mpa: require('./libs/inputs/mpa'),
+    spa: require('./libs/inputs/spa'),
   },
   outputs: {
     dll: require('./libs/outputs/dll'),
