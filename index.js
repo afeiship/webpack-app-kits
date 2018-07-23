@@ -16,6 +16,7 @@ module.exports = {
     dllRefrence: require('./libs/plugins/dll-refrence'),
     dll: require('./libs/plugins/dll'),
     extractText: require('./libs/plugins/extract-text'),
+    hotModuleReplacement: require('./libs/plugins/hot-module-replacement'),
     loaderOptions: require('./libs/plugins/loader-options'),
     moduleConcatenation: require('./libs/plugins/module-concatenation'),
     multipleHtml: require('./libs/plugins/multiple-html'),
@@ -32,6 +33,7 @@ module.exports = {
   configs: {
     alias: require('./libs/configs/alias'),
     devServer: require('./libs/configs/dev-server'),
+    devtool: require('./libs/configs/devtool'),
     optimization: require('./libs/configs/optimization'),
     performance: require('./libs/configs/performance'),
     extensions: require('./libs/configs/extensions'),
