@@ -18,6 +18,7 @@ module.exports = {
     dllRefrence: require('./libs/plugins/dll-refrence'),
     dll: require('./libs/plugins/dll'),
     extractText: require('./libs/plugins/extract-text'),
+    hashedModuleIds: require('./libs/plugins/hashed-moduleIds'),
     hotModuleReplacement: require('./libs/plugins/hot-module-replacement'),
     loaderOptions: require('./libs/plugins/loader-options'),
     moduleConcatenation: require('./libs/plugins/module-concatenation'),
