@@ -23,13 +23,14 @@ module.exports = {
     provide: require('./libs/plugins/provide'),
   },
   inputs: {
-    mpa: require('./libs/inputs/mpa'),
-    spa: require('./libs/inputs/spa')
+    dll: require('./libs/inputs/dll'),
+    spa: require('./libs/inputs/spa'),
+    mpa: require('./libs/inputs/mpa')
   },
   outputs: {
     dll: require('./libs/outputs/dll'),
     spa: require('./libs/outputs/spa'),
-    mpa: require('./libs/outputs/mpa'),
+    mpa: require('./libs/outputs/mpa')
   },
   configs: {
     alias: require('./libs/configs/alias'),
