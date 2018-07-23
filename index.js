@@ -6,6 +6,7 @@ module.exports = {
   loaders: {
     babel: require('./libs/loaders/babel'),
     css: require('./libs/loaders/css'),
+    environment: require('./libs/loaders/environment'),
     font: require('./libs/loaders/font'),
     image: require('./libs/loaders/image'),
     less: require('./libs/loaders/less'),
