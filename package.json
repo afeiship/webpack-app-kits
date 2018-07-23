@@ -56,8 +56,9 @@
     "webpack-mpa-entries": "github:afeiship/webpack-mpa-entries"
   },
   "dependencies": {
-    "next-js-core2": "github:afeiship/next-js-core2",
+    "next-delete": "github:afeiship/next-delete",
     "next-flatten": "github:afeiship/next-flatten",
-    "next-delete": "github:afeiship/next-delete"
+    "next-join": "github:afeiship/next-join",
+    "next-js-core2": "github:afeiship/next-js-core2"
   }
 }

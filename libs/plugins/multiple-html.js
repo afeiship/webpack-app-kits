@@ -2,17 +2,17 @@ const resolve = require('path').resolve;
 const dirname = require('app-root-path').path;
 const webpackMpaEntries = require('webpack-mpa-entries');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const merge = require('../utils/merge');
 
 module.exports = function (inOptions) {
-  const mpaEntries = webpackMpaEntries(inOptions.entries);
+  const { entries, mode, ...options } = inOptions;
+  const mpaEntries = webpackMpaEntries(entries);
 
   return nx.map(mpaEntries, function (key, value) {
-    const template = value.replace('.js', '.ejs');
+    const template = mode ? value.replace('.js', `_${mode}.ejs`): value.replace('.js', '.ejs');
     const filename = `dist/${key}/index.html`;
 
     return new HtmlWebpackPlugin(
-      merge(
+      Object.assign(
         {
           hash: 6,
           inject: true,
@@ -20,7 +20,7 @@ module.exports = function (inOptions) {
           filename: resolve(dirname, filename),
           chunks: ['vendors', 'commons', key]
         },
-        inOptions
+        options
       )
     );
   });
