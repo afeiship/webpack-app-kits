@@ -1,7 +1,5 @@
 const webpack = require('webpack');
 
 module.exports = function (inOptions) {
-  return [
-    new webpack.HotModuleReplacementPlugin()
-  ];
+  return new webpack.HotModuleReplacementPlugin();
 };
