@@ -9,7 +9,7 @@
   },
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "add-asset-html-webpack-plugin": "^3.0.0-0",
     "app-root-path": "^2.1.0",
     "babel-core": "^6.26.0",
@@ -42,6 +42,10 @@
     "import-glob-loader": "^1.1.0",
     "install": "^0.11.0",
     "mini-css-extract-plugin": "^0.4.0",
+    "next-delete": "github:afeiship/next-delete",
+    "next-flatten": "github:afeiship/next-flatten",
+    "next-join": "github:afeiship/next-join",
+    "next-js-core2": "github:afeiship/next-js-core2",
     "node-sass": "^4.8.3",
     "postcss-loader": "^2.1.5",
     "react-hot-loader": "^4.2.0",
@@ -54,11 +58,5 @@
     "webpack-dev-server": "^3.1.4",
     "webpack-merge": "^4.1.2",
     "webpack-mpa-entries": "github:afeiship/webpack-mpa-entries"
-  },
-  "dependencies": {
-    "next-delete": "github:afeiship/next-delete",
-    "next-flatten": "github:afeiship/next-flatten",
-    "next-join": "github:afeiship/next-join",
-    "next-js-core2": "github:afeiship/next-js-core2"
   }
 }
