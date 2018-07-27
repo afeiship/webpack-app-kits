@@ -25,6 +25,7 @@ module.exports = {
     multipleHtml: require('./libs/plugins/multiple-html'),
     provide: require('./libs/plugins/provide'),
     singleHtml: require('./libs/plugins/single-html'),
+    statisticInjector: require('./libs/plugins/statistic-injector'),
   },
   inputs: {
     dll: require('./libs/inputs/dll'),

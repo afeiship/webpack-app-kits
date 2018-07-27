@@ -39,6 +39,7 @@
     "next-join": "github:afeiship/next-join",
     "next-js-core2": "github:afeiship/next-js-core2",
     "node-sass": "^4.8.3",
+    "object-assign": "^4.1.1",
     "postcss-loader": "^2.1.5",
     "react-hot-loader": "^4.2.0",
     "sass-loader": "^7.0.1",
