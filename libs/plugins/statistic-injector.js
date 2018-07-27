@@ -3,10 +3,14 @@ const ScriptsInjectorWebpackPlugin = require('scripts-injector-webpack-plugin');
 
 module.exports = function (inOptions) {
   const file = fs.readFileSync(inOptions.filename);
+  const mode = inOptions.mode;
   return new ScriptsInjectorWebpackPlugin({
     replacements: [
-      function () {
-        return inHtml.replace('</body>', '\n' + file + '\n</body>');
+      function (inHtml) {
+        if (mode === 'production') {
+          return inHtml.replace('</body>', '\n' + file + '\n</body>');
+        }
+        return inHtml;
       }
     ]
   })
