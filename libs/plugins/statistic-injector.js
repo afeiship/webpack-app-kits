@@ -7,7 +7,7 @@ module.exports = function (inOptions) {
   return new ScriptsInjectorWebpackPlugin({
     replacements: [
       function (inHtml) {
-        if (mode === 'production') {
+        if (!mode || mode === 'production') {
           return inHtml.replace('</body>', '\n' + file + '\n</body>');
         }
         return inHtml;
