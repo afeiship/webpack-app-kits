@@ -8,6 +8,7 @@ module.exports = function (inOptions) {
       resolve(dirname, 'dist'),
       resolve(dirname, 'node_modules')
     ],
+    hotOnly: true,
     hot: true,
     stats: 'errors-only',
     compress: true,
