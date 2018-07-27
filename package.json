@@ -44,6 +44,7 @@
     "react-hot-loader": "^4.2.0",
     "sass-loader": "^7.0.1",
     "string-replace-loader": "^2.1.1",
+    "scripts-injector-webpack-plugin": "github:afeiship/scripts-injector-webpack-plugin",
     "style-loader": "^0.20.3",
     "url-loader": "^1.0.1",
     "webpack-bundle-analyzer": "^2.13.1",
