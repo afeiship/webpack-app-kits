@@ -15,6 +15,7 @@ module.exports = {
   },
   plugins: {
     bundleAnalyzer: require('./lib/plugins/bundle-analyzer'),
+    define: require('./lib/plugins/define'),
     dllRefrence: require('./lib/plugins/dll-refrence'),
     dll: require('./lib/plugins/dll'),
     extractText: require('./lib/plugins/extract-text'),
