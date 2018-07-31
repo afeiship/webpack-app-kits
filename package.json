@@ -34,6 +34,7 @@
     "git-info": "github:afeiship/git-info",
     "html-webpack-plugin": "^3.0.6",
     "import-glob-loader": "^1.1.0",
+    "less": "^3.8.0",
     "less-loader": "^4.1.0",
     "next-delete": "github:afeiship/next-delete",
     "next-flatten": "github:afeiship/next-flatten",
