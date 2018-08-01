@@ -25,6 +25,7 @@ module.exports = {
     moduleConcatenation: require('./lib/plugins/module-concatenation'),
     multipleHtml: require('./lib/plugins/multiple-html'),
     provide: require('./lib/plugins/provide'),
+    semver: require('./lib/plugins/semver'),
     singleHtml: require('./lib/plugins/single-html'),
     statisticInjector: require('./lib/plugins/statistic-injector'),
   },
