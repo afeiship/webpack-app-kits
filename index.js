@@ -43,9 +43,10 @@ module.exports = {
     alias: require('./lib/configs/alias'),
     devServer: require('./lib/configs/dev-server'),
     devtool: require('./lib/configs/devtool'),
+    extensions: require('./lib/configs/extensions'),
     optimization: require('./lib/configs/optimization'),
     performance: require('./lib/configs/performance'),
-    extensions: require('./lib/configs/extensions'),
+    resolveLoader: require('./lib/configs/resolve-loader'),
     externals: {
       react: require('./lib/externals/react'),
       vue: require('./lib/externals/vue'),
