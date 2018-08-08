@@ -44,6 +44,7 @@
     "object-assign": "^4.1.1",
     "postcss-loader": "^2.1.5",
     "react-hot-loader": "^4.2.0",
+    "resource-hints-webpack-plugin": "0.0.2",
     "sass-loader": "^7.0.1",
     "scripts-injector-webpack-plugin": "github:afeiship/scripts-injector-webpack-plugin",
     "semver-webpack-plugin": "github:afeiship/semver-webpack-plugin",
