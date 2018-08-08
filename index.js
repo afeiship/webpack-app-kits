@@ -18,6 +18,7 @@ module.exports = {
     define: require('./lib/plugins/define'),
     dllRefrence: require('./lib/plugins/dll-refrence'),
     dll: require('./lib/plugins/dll'),
+    dnsPrefetch: require('./lib/plugins/dns-prefetch'),
     extractText: require('./lib/plugins/extract-text'),
     hashedModuleIds: require('./lib/plugins/hashed-moduleIds'),
     hotModuleReplacement: require('./lib/plugins/hot-module-replacement'),
