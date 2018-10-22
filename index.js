@@ -1,8 +1,4 @@
 module.exports = {
-  utils: {
-    merge: require('./lib/utils/merge'),
-    mode: require('./lib/utils/mode'),
-  },
   loaders: {
     babel: require('./lib/loaders/babel'),
     css: require('./lib/loaders/css'),
