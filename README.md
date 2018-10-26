@@ -2,4 +2,5 @@
 > Webpack application kits
 
 ## todos:
-- [ ] env: development/test/production
+- [x] env: development/test/production
+- [ ] sw, finish docs
