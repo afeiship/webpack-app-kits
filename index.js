@@ -7,7 +7,7 @@ module.exports = {
     image: require('./lib/loaders/image'),
     less: require('./lib/loaders/less'),
     mp34: require('./lib/loaders/mp34'),
-    sass: require('./lib/loaders/sass'),
+    sass: require('./lib/loaders/sass')
   },
   plugins: {
     bundleAnalyzer: require('./lib/plugins/bundle-analyzer'),
@@ -24,8 +24,9 @@ module.exports = {
     provide: require('./lib/plugins/provide'),
     resourceHints: require('./lib/plugins/resource-hints'),
     semver: require('./lib/plugins/semver'),
+    serviceWorker: require('./lib/plugins/service-worker'),
     singleHtml: require('./lib/plugins/single-html'),
-    statisticInjector: require('./lib/plugins/statistic-injector'),
+    statisticInjector: require('./lib/plugins/statistic-injector')
   },
   inputs: {
     dll: require('./lib/inputs/dll'),
@@ -47,7 +48,7 @@ module.exports = {
     resolveLoader: require('./lib/configs/resolve-loader'),
     externals: {
       react: require('./lib/externals/react'),
-      vue: require('./lib/externals/vue'),
+      vue: require('./lib/externals/vue')
     }
   }
 };
