@@ -3,4 +3,4 @@
 
 ## todos:
 - [x] env: development/test/production
-- [ ] sw, finish docs
+- [x] sw, finish docs
