@@ -10,6 +10,7 @@ module.exports = {
     sass: require('./lib/loaders/sass')
   },
   plugins: {
+    banner: require('./lib/plugins/banner'),
     bundleAnalyzer: require('./lib/plugins/bundle-analyzer'),
     define: require('./lib/plugins/define'),
     dllRefrence: require('./lib/plugins/dll-refrence'),
