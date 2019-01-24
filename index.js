@@ -19,6 +19,7 @@ module.exports = {
     extractText: require('./lib/plugins/extract-text'),
     hashedModuleIds: require('./lib/plugins/hashed-moduleIds'),
     hotModuleReplacement: require('./lib/plugins/hot-module-replacement'),
+    imagemin: require('./lib/plugins/imagemin'),
     loaderOptions: require('./lib/plugins/loader-options'),
     moduleConcatenation: require('./lib/plugins/module-concatenation'),
     multipleHtml: require('./lib/plugins/multiple-html'),
