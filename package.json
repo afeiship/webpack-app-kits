@@ -36,6 +36,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.0.0",
+    "clean-webpack-plugin": "^2.0.1",
     "css-hot-loader": "^1.3.9",
     "css-loader": "^0.28.11",
     "dns-prefetch-webpack-plugin": "github:afeiship/dns-prefetch-webpack-plugin",
