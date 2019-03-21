@@ -13,6 +13,7 @@ module.exports = {
   plugins: {
     banner: require('./lib/plugins/banner'),
     bundleAnalyzer: require('./lib/plugins/bundle-analyzer'),
+    clean: require('./lib/plugins/clean'),
     define: require('./lib/plugins/define'),
     dllRefrence: require('./lib/plugins/dll-refrence'),
     dll: require('./lib/plugins/dll'),
