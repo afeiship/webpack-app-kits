@@ -25,6 +25,7 @@ module.exports = {
     loaderOptions: require('./lib/plugins/loader-options'),
     moduleConcatenation: require('./lib/plugins/module-concatenation'),
     multipleHtml: require('./lib/plugins/multiple-html'),
+    progressBar: require('./lib/plugins/progress-bar'),
     provide: require('./lib/plugins/provide'),
     resourceHints: require('./lib/plugins/resource-hints'),
     semver: require('./lib/plugins/semver'),
