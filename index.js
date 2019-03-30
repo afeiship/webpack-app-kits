@@ -11,6 +11,7 @@ module.exports = {
     sass: require('./lib/loaders/sass')
   },
   plugins: {
+    archiver: require('./lib/plugins/archiver'),
     banner: require('./lib/plugins/banner'),
     bundleAnalyzer: require('./lib/plugins/bundle-analyzer'),
     clean: require('./lib/plugins/clean'),

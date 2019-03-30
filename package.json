@@ -13,6 +13,7 @@
     "version": "gulp version"
   },
   "devDependencies": {
+    "archiver-webpack-plugin": "github:afeiship/archiver-webpack-plugin",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-bump": "^2.7.0",
