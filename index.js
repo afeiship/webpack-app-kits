@@ -53,8 +53,9 @@ module.exports = {
     performance: require('./lib/configs/performance'),
     resolveLoader: require('./lib/configs/resolve-loader'),
     externals: {
-      react: require('./lib/externals/react'),
+      antd: require('./lib/externals/antd'),
       moment: require('./lib/externals/moment'),
+      react: require('./lib/externals/react'),
       vue: require('./lib/externals/vue')
     }
   }
