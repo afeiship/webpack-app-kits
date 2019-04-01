@@ -54,6 +54,7 @@ module.exports = {
     resolveLoader: require('./lib/configs/resolve-loader'),
     externals: {
       antd: require('./lib/externals/antd'),
+      jquery: require('./lib/externals/jquery'),
       moment: require('./lib/externals/moment'),
       react: require('./lib/externals/react'),
       vue: require('./lib/externals/vue')
