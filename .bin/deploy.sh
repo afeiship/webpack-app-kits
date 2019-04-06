@@ -20,6 +20,6 @@ git commit -m 'auto: deploy by gh-pages script'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:afeiship/boilerplate-vuepress.git master:gh-pages
+git push -f git@github.com:afeiship/webpack-app-kits.git master:gh-pages
 
 cd -
