@@ -20,6 +20,7 @@ module.exports = {
         children: [
           '/configs/alias.md',
           '/configs/dev-server.md',
+          '/configs/devtool.md',
         ]
       }
     ]
