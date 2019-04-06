@@ -10,7 +10,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "version": "gulp version"
+    "version": "gulp version",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "./.bin/deploy.sh"
   },
   "devDependencies": {
     "del": "^2.2.0",
