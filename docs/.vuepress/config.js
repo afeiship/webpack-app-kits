@@ -21,6 +21,10 @@ module.exports = {
           '/configs/alias.md',
           '/configs/dev-server.md',
           '/configs/devtool.md',
+          '/configs/extensions.md',
+          '/configs/optimization.md',
+          '/configs/performance.md',
+          '/configs/resolve-loader.md'
         ]
       }
     ]

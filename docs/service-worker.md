@@ -1,9 +1,6 @@
 # service-worker
 > About service worker.
 
-## resources:
-+ https://github.com/oliviertassinari/serviceworker-webpack-plugin
-
 ## usage:
 1. place `./src/sw.js` in your project src dir
 ```conf
@@ -36,3 +33,7 @@ plugins:[
   plugins.serviceWorker()
 ]
 ```
+
+## resources:
++ https://github.com/oliviertassinari/serviceworker-webpack-plugin
+
