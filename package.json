@@ -16,10 +16,12 @@
     "docs:deploy": "./.bin/deploy.sh"
   },
   "devDependencies": {
+    "@vuepress/core": "^1.0.0-alpha.44",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-bump": "^2.7.0",
-    "gulp-load-plugins": "^1.5.0"
+    "gulp-load-plugins": "^1.5.0",
+    "vuepress": "^1.0.0-alpha.44"
   },
   "dependencies": {
     "@babel/core": "^7.4.0",

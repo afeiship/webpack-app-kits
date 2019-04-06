@@ -1,6 +1,6 @@
 module.exports = {
-  base: '/boilerplate-vuepress/',
-  title: 'boilerplate-vuepress-description',
+  base: '/webpack-app-kits/',
+  title: 'webpack-app-kits',
   host: '0.0.0.0',
   description: 'boilerplate-vuepress-description',
   head: [
@@ -15,9 +15,12 @@ module.exports = {
   themeConfig: {
     sidebar: [
       {
-        title: 'Get started',
+        title: 'Configs',
         collapsable: false,
-        children: ['/javascript/001-get-started.md', '/javascript/002-globby.md']
+        children: [
+          '/configs/alias.md',
+          '/configs/dev-server.md',
+        ]
       }
     ]
   }
