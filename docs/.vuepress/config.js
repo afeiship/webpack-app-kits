@@ -26,6 +26,17 @@ module.exports = {
           '/configs/performance.md',
           '/configs/resolve-loader.md'
         ]
+      },
+      {
+        title: 'Externals',
+        collapsable: false,
+        children: [
+          '/externals/antd.md',
+          '/externals/jquery.md',
+          '/externals/moment.md',
+          '/externals/react.md',
+          '/externals/vue.md',
+        ]
       }
     ]
   }
