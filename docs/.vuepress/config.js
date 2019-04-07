@@ -2,7 +2,7 @@ module.exports = {
   base: '/webpack-app-kits/',
   title: 'webpack-app-kits',
   host: '0.0.0.0',
-  description: 'boilerplate-vuepress-description',
+  description: 'Webpack application kits.',
   head: [
     [
       'link',
