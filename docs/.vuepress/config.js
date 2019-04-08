@@ -37,6 +37,39 @@ module.exports = {
           '/externals/react.md',
           '/externals/vue.md',
         ]
+      },
+      {
+        title: 'Inputs',
+        collapsable: false,
+        children: [
+          '/inputs/dll.md',
+          '/inputs/mpa.md',
+          '/inputs/spa.md',
+        ]
+      },
+      {
+        title: 'Loaders',
+        collapsable: false,
+        children: [
+          '/loaders/babel.md',
+          '/loaders/css.md',
+          '/loaders/environment.md',
+          '/loaders/font.md',
+          '/loaders/image.md',
+          '/loaders/less.md',
+          '/loaders/mp34.md',
+          '/loaders/pug.md',
+          '/loaders/sass.md',
+        ]
+      },
+      {
+        title: 'Outputs',
+        collapsable: false,
+        children: [
+          '/outputs/dll.md',
+          '/outputs/mpa.md',
+          '/outputs/spa.md',
+        ]
       }
     ]
   }
