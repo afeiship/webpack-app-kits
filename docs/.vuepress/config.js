@@ -70,6 +70,15 @@ module.exports = {
           '/outputs/mpa.md',
           '/outputs/spa.md',
         ]
+      },
+      {
+        title: 'Plugins',
+        collapsable: false,
+        children: [
+          '/outputs/dll.md',
+          '/outputs/mpa.md',
+          '/outputs/spa.md',
+        ]
       }
     ]
   }
