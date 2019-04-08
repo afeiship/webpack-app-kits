@@ -16,7 +16,7 @@ module.exports = {
     sidebar: [
       {
         title: 'Configs',
-        collapsable: false,
+        collapsable: true,
         children: [
           '/configs/alias.md',
           '/configs/dev-server.md',
@@ -29,7 +29,7 @@ module.exports = {
       },
       {
         title: 'Externals',
-        collapsable: false,
+        collapsable: true,
         children: [
           '/externals/antd.md',
           '/externals/jquery.md',
@@ -40,7 +40,7 @@ module.exports = {
       },
       {
         title: 'Inputs',
-        collapsable: false,
+        collapsable: true,
         children: [
           '/inputs/dll.md',
           '/inputs/mpa.md',
@@ -49,7 +49,7 @@ module.exports = {
       },
       {
         title: 'Loaders',
-        collapsable: false,
+        collapsable: true,
         children: [
           '/loaders/babel.md',
           '/loaders/css.md',
@@ -64,7 +64,7 @@ module.exports = {
       },
       {
         title: 'Outputs',
-        collapsable: false,
+        collapsable: true,
         children: [
           '/outputs/dll.md',
           '/outputs/mpa.md',
@@ -73,7 +73,7 @@ module.exports = {
       },
       {
         title: 'Plugins',
-        collapsable: false,
+        collapsable: true,
         children: [
           '/plugins/archiver.md',
           '/plugins/banner.md',
