@@ -64,6 +64,7 @@
     "object-assign": "^4.1.1",
     "postcss-loader": "^2.1.5",
     "progress-bar-webpack-plugin": "^1.11.0",
+    "rake-git": "github:afeiship/rake-git",
     "react-hot-loader": "^4.2.0",
     "resource-hints-webpack-plugin": "0.0.2",
     "rimraf": "^2.6.3",
