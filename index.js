@@ -58,6 +58,7 @@ module.exports = {
       jquery: require('./lib/externals/jquery'),
       moment: require('./lib/externals/moment'),
       react: require('./lib/externals/react'),
+      reactUmd: require('./lib/externals/react-umd'),
       vue: require('./lib/externals/vue')
     }
   }
