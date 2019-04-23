@@ -13,7 +13,7 @@
     "version": "gulp version",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "docs:deploy": "./.bin/deploy.sh"
+    "docs:deploy": "./bin/deploy.sh"
   },
   "devDependencies": {
     "@vuepress/core": "^1.0.0-alpha.44",
