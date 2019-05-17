@@ -14,6 +14,7 @@ module.exports = {
     archiver: require('./lib/plugins/archiver'),
     banner: require('./lib/plugins/banner'),
     bundleAnalyzer: require('./lib/plugins/bundle-analyzer'),
+    copy: require('./lib/plugins/copy'),
     clean: require('./lib/plugins/clean'),
     define: require('./lib/plugins/define'),
     dllRefrence: require('./lib/plugins/dll-refrence'),
