@@ -22,7 +22,6 @@
     "gulp": "^3.9.1",
     "gulp-bump": "^2.7.0",
     "gulp-load-plugins": "^1.5.0",
-    "next-values": "github:afeiship/next-values",
     "vuepress": "^1.0.0-alpha.44"
   },
   "dependencies": {
@@ -62,6 +61,7 @@
     "next-flatten": "github:afeiship/next-flatten",
     "next-join": "github:afeiship/next-join",
     "next-js-core2": "github:afeiship/next-js-core2",
+    "next-values": "github:afeiship/next-values",
     "node-sass": "^4.8.3",
     "object-assign": "^4.1.1",
     "offline-plugin": "^5.0.7",
