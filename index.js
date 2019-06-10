@@ -13,6 +13,7 @@ module.exports = {
   plugins: {
     archiver: require('./lib/plugins/archiver'),
     banner: require('./lib/plugins/banner'),
+    bar: require('./lib/plugins/bar'),
     bundleAnalyzer: require('./lib/plugins/bundle-analyzer'),
     copy: require('./lib/plugins/copy'),
     clean: require('./lib/plugins/clean'),
