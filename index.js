@@ -22,6 +22,7 @@ module.exports = {
     dll: require('./lib/plugins/dll'),
     dnsPrefetch: require('./lib/plugins/dns-prefetch'),
     extractText: require('./lib/plugins/extract-text'),
+    fallback: require('./lib/plugins/fallback'),
     hashedModuleIds: require('./lib/plugins/hashed-moduleIds'),
     hotModuleReplacement: require('./lib/plugins/hot-module-replacement'),
     htmlBanner: require('./lib/plugins/html-banner'),
