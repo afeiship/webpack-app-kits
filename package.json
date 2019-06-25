@@ -62,6 +62,7 @@
     "next-join": "github:afeiship/next-join",
     "next-js-core2": "github:afeiship/next-js-core2",
     "next-values": "github:afeiship/next-values",
+    "next-webpack-alias": "github:afeiship/next-webpack-alias",
     "node-sass": "^4.8.3",
     "object-assign": "^4.1.1",
     "offline-plugin": "^5.0.7",
