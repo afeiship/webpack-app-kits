@@ -29,6 +29,7 @@ module.exports = {
     imagemin: require('./lib/plugins/imagemin'),
     loaderOptions: require('./lib/plugins/loader-options'),
     moduleConcatenation: require('./lib/plugins/module-concatenation'),
+    minCssExtract: require('./lib/plugins/min-css-extract'),
     multipleHtml: require('./lib/plugins/multiple-html'),
     offline: require('./lib/plugins/offline'),
     progressBar: require('./lib/plugins/progress-bar'),
