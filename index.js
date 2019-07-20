@@ -63,6 +63,7 @@ module.exports = {
       echarts: require('./lib/externals/echarts'),
       jquery: require('./lib/externals/jquery'),
       moment: require('./lib/externals/moment'),
+      propTypesUmd: require('./lib/externals/prop-types-umd'),
       react: require('./lib/externals/react'),
       reactUmd: require('./lib/externals/react-umd'),
       vue: require('./lib/externals/vue')
