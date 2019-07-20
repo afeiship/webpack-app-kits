@@ -4,8 +4,9 @@
 ## basic react project
 ```js
 plugins.provide({
-  IfElse: require('react-if-else').default,
-  RCM: require('react-condition-manager').default
+  IfElse: ['react-if-else', 'default'],
+  RCM: ['react-condition-manager', 'default'],
+  cx: 'classnames'
 })
 ```
 
