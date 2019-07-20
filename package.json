@@ -47,7 +47,6 @@
     "css-hot-loader": "^1.3.9",
     "css-loader": "^0.28.11",
     "dns-prefetch-webpack-plugin": "github:afeiship/dns-prefetch-webpack-plugin",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.11",
     "git-info": "github:afeiship/git-info",
     "html-banner-webpack-plugin": "github:afeiship/html-banner-webpack-plugin",
