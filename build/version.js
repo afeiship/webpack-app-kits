@@ -13,7 +13,7 @@
      */
 
     gulp.task('version',function(){
-      gulp.src(['./*.json'])
+      return gulp.src(['./*.json'])
         .pipe($.bump())
         .pipe(gulp.dest('./'));
     });
