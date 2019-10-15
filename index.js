@@ -8,7 +8,8 @@ module.exports = {
     less: require('./lib/loaders/less'),
     mp34: require('./lib/loaders/mp34'),
     pug: require('./lib/loaders/pug'),
-    sass: require('./lib/loaders/sass')
+    sass: require('./lib/loaders/sass'),
+    underscoreEjs: require('./lib/loaders/underscore-ejs')
   },
   plugins: {
     archiver: require('./lib/plugins/archiver'),
