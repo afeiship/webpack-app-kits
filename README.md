@@ -1,6 +1,11 @@
 # webpack-app-kits
 > Webpack application kits.
 
+## installation
+```shell
+npm install -D @feizheng/webpack-app-kits
+```
+
 ## basic react project
 ```js
 plugins.provide({
