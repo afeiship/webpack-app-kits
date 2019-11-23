@@ -1,5 +1,5 @@
 {
-  "name": "webpack-app-kits",
+  "name": "@feizheng/webpack-app-kits",
   "version": "2.0.8",
   "description": "Webpack application kits",
   "homepage": "https://github.com/afeiship/webpack-app-kits",
@@ -85,5 +85,8 @@
     "url-loader": "^1.0.1",
     "webpack-bundle-analyzer": "^3.3.2",
     "webpackbar": "^3.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
