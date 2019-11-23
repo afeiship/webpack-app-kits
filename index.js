@@ -43,6 +43,7 @@ module.exports = {
   },
   inputs: {
     dll: require('./lib/inputs/dll'),
+    mod: require('./lib/inputs/module'),
     spa: require('./lib/inputs/spa'),
     mpa: require('./lib/inputs/mpa')
   },
