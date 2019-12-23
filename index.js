@@ -30,7 +30,7 @@ module.exports = {
     hashedModuleIds: require('./lib/plugins/hashed-moduleIds'),
     hotModuleReplacement: require('./lib/plugins/hot-module-replacement'),
     htmlBanner: require('./lib/plugins/html-banner'),
-    // imagemin: require('./lib/plugins/imagemin'),
+    imagemin: require('./lib/plugins/imagemin'),
     loaderOptions: require('./lib/plugins/loader-options'),
     moduleConcatenation: require('./lib/plugins/module-concatenation'),
     minCssExtract: require('./lib/plugins/min-css-extract'),
