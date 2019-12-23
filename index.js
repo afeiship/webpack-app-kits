@@ -33,6 +33,7 @@ module.exports = {
     imagemin: require('./lib/plugins/imagemin'),
     loaderOptions: require('./lib/plugins/loader-options'),
     moduleConcatenation: require('./lib/plugins/module-concatenation'),
+    moduleLocales: require('./lib/plugins/moment-locales'),
     minCssExtract: require('./lib/plugins/min-css-extract'),
     multipleHtml: require('./lib/plugins/multiple-html'),
     offline: require('./lib/plugins/offline'),
