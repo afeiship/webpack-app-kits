@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/webpack-app-kits",
-  "version": "3.1.11",
+  "version": "3.2.0",
   "description": "Webpack application kits",
   "homepage": "https://github.com/afeiship/webpack-app-kits",
   "author": {
@@ -39,6 +39,7 @@
     "@feizheng/dns-prefetch-webpack-plugin": "^1.0.0",
     "@feizheng/git-info": "^1.0.0",
     "@feizheng/html-banner-webpack-plugin": "^1.0.0",
+    "@feizheng/next-absolute-package": "^1.0.1",
     "@feizheng/next-delete": "^1.0.0",
     "@feizheng/next-flatten": "^1.0.0",
     "@feizheng/next-join": "^1.0.0",
