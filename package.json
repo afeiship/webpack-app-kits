@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/webpack-app-kits",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Webpack application kits",
   "homepage": "https://github.com/afeiship/webpack-app-kits",
   "author": {
@@ -58,11 +58,11 @@
     "babel-plugin-transform-array-from": "^1.0.0",
     "clean-webpack-plugin": "^2.0.1",
     "copy-webpack-plugin": "^5.0.3",
+    "cross-env": "^7.0.0",
     "css-hot-loader": "^1.3.9",
     "css-loader": "^0.28.11",
     "eslint": "^6.7.1",
     "eslint-loader": "^3.0.2",
-    "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
     "import-glob-loader": "^1.1.0",
