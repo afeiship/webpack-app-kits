@@ -10,7 +10,6 @@ module.exports = {
     less: require('./lib/loaders/less'),
     mp34: require('./lib/loaders/mp34'),
     pug: require('./lib/loaders/pug'),
-    sassModule: require('./lib/loaders/sass-module'),
     sass: require('./lib/loaders/sass'),
     underscoreEjs: require('./lib/loaders/underscore-ejs')
   },
