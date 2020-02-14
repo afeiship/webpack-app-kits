@@ -3,7 +3,7 @@
 
 ## installation
 ```shell
-npm install -D @feizheng/webpack-app-kits
+npm install @feizheng/webpack-app-kits
 ```
 
 ## basic react project
