@@ -6,6 +6,11 @@
 npm install @feizheng/webpack-app-kits
 ```
 
+## update
+```shell
+npm update @feizheng/webpack-app-kits
+```
+
 ## basic react project
 ```js
 plugins.provide({
