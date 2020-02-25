@@ -22,6 +22,7 @@ plugins.provide({
 
 ## docs
 - https://afeiship.github.io/webpack-app-kits/
+- https://juejin.im/post/5e53dbbc518825494905c45f
 
 ## todos:
 - [x] env: development/test/production
