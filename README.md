@@ -3,12 +3,7 @@
 
 ## installation
 ```shell
-npm install @feizheng/webpack-app-kits
-```
-
-## update
-```shell
-npm update @feizheng/webpack-app-kits
+npm install @jswork/webpack-app-kits
 ```
 
 ## basic react project
@@ -23,7 +18,3 @@ plugins.provide({
 ## docs
 - https://afeiship.github.io/webpack-app-kits/
 - https://juejin.im/post/5e53dbbc518825494905c45f
-
-## todos:
-- [x] env: development/test/production
-- [x] sw, finish docs
