@@ -11,6 +11,7 @@ module.exports = {
     mp34: require('./lib/loaders/mp34'),
     pug: require('./lib/loaders/pug'),
     sass: require('./lib/loaders/sass'),
+    svgr: require('./lib/loaders/svgr'),
     underscoreEjs: require('./lib/loaders/underscore-ejs')
   },
   plugins: {
