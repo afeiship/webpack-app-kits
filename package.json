@@ -44,7 +44,6 @@
     "@jswork/next-absolute-package": "^1.0.1",
     "@jswork/next-delete": "^1.0.2",
     "@jswork/next-flatten": "^1.0.0",
-    "@jswork/next-join": "^1.0.0",
     "@jswork/next-values": "^1.0.0",
     "@jswork/next-webpack-alias": "^1.0.0",
     "@jswork/scripts-injector-webpack-plugin": "^1.0.0",
